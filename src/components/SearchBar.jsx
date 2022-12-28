@@ -23,9 +23,9 @@ import {Search} from '@mui/icons-material';
       component="form"
       onSubmit={handleSubmit}
       sx={{
-         borderRadius: 30,
+         borderRadius: 20,
          border: '1px solid #e3e3e3',
-         p1:9,
+         p1:2,
          boxShadow: 'none',
          mr: { sm: 5 }
       }}
@@ -36,7 +36,7 @@ import {Search} from '@mui/icons-material';
        value={searchTerm}
        onChange={(e) => setsearchTerm(e.target.value)}
        />
-       <IconButton type="sumbit" sx={{ p:'20px', color: 'red'}}>
+       <IconButton type="sumbit" sx={{ p:'20px', color: 'blue'}}>
          <Search />
        </IconButton>
     </Paper>

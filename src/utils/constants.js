@@ -13,14 +13,15 @@ import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import NewReleasesIcon from '@mui/icons-material/NewReleases';
 import  StyleIcon  from '@mui/icons-material/Style';
+import  NewspaperIcon  from '@mui/icons-material/Newspaper';
 
 export const logo = 'https://cdn-icons-png.flaticon.com/512/270/270824.png';
 
 export const categories = [
   { name: 'New',icon: <HomeIcon />, },
-  { name: 'trending', icon: < NewReleasesIcon/>, },
+  { name: 'Trending', icon: < NewReleasesIcon/>, },
   { name: 'Gadgets', icon: <StyleIcon />, },
-  { name: 'News', icon: <CodeIcon />, },
+  { name: 'News', icon: <NewspaperIcon />, },
   { name: 'codes', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
