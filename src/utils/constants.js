@@ -11,15 +11,16 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-import NewReleasesIcon from '@mui/icons-material/NewReleases';
+import WhatshotIcon from '@mui/icons-material/Whatshot';
 import  StyleIcon  from '@mui/icons-material/Style';
 import  NewspaperIcon  from '@mui/icons-material/Newspaper';
+
 
 export const logo = 'https://cdn-icons-png.flaticon.com/512/270/270824.png';
 
 export const categories = [
-  { name: 'New',icon: <HomeIcon />, },
-  { name: 'Trending', icon: < NewReleasesIcon/>, },
+  { name: 'New',icon: <HomeIcon/>, },
+  { name: 'Trending', icon: < WhatshotIcon/>, },
   { name: 'Gadgets', icon: <StyleIcon />, },
   { name: 'News', icon: <NewspaperIcon />, },
   { name: 'codes', icon: <CodeIcon />, },

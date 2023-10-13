@@ -27,7 +27,7 @@ const Feed = () => {
       />  
 
       <Typography  className="copyright" variant="body2" sx={{ mt: 1.5,color: '#fff'}}>
-          Copyright 2022 FIRE TUBE MEDIA
+          Copyright 2023 FIRE TUBE MEDIA
       </Typography>
     </Box>
         
@@ -39,10 +39,7 @@ const Feed = () => {
       <Videos videos={videos} />
     </Box>
     </Stack>
-
-
-
   )
 }
 
-export default Feed
+export default Feed;

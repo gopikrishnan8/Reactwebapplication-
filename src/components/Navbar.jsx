@@ -12,11 +12,10 @@ const Navbar = () =>
     sx={{ position: 'sticky', background: '#000', top: 0, justifyContent: 'space-between'}}
     >
       <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-        <img src={logo} alt="logo" height={45} />
-        <Typography variant="h4" fontWeight="bold" color="#fff" p={4}>
+        <img src={logo} alt="logo" height={50} />
+        <Typography variant="h4" fontWeight="bold" color="#fff" p={2}>
                     FIRE TUBE
-        </Typography>
-
+      </Typography>
       </Link>
       <SearchBar/>
     </Stack>

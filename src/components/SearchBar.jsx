@@ -24,7 +24,7 @@ import {Search} from '@mui/icons-material';
       onSubmit={handleSubmit}
       sx={{
          borderRadius: 20,
-         border: '1px solid #e3e3e3',
+         border: '3px solid #e3e3e3',
          p1:2,
          boxShadow: 'none',
          mr: { sm: 5 }
